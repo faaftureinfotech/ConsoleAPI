@@ -1,0 +1,16 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace ConstructionFinance.API.DTOs
+{
+    public class CreateCustomerDto
+    {
+        [Required] public string Name { get; set; } = null!;
+        public string? ContactPerson { get; set; }
+        public string? Phone { get; set; }
+        public string? Email { get; set; }
+        public string? GstNumber { get; set; }
+        public string? Address { get; set; }
+        public string? Notes { get; set; }
+        
+    }
+}

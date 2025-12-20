@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\migrations\\20251216174236_createsuppliertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:migrations\\20251216174236_createsuppliertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\supplier\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\supplier\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\supplier\\suppliercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\supplier\\suppliercreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\migrations\\20251209184049_fixprojectidautoincrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:migrations\\20251209184049_fixprojectidautoincrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\project\\createprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\project\\createprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\project\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\project\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\migrations\\20251209181416_createprojectstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:migrations\\20251209181416_createprojectstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\migrations\\20251209175339_addcontractandkyccolumnstoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:migrations\\20251209175339_addcontractandkyccolumnstoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\migrations\\20251209172606_addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:migrations\\20251209172606_addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\project\\updateprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\project\\updateprojectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\employee\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\employee\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\employee\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\employee\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|c:\\asen\\04.faafture\\18.console\\construction-finance\\construction-finance\\backend-dotnet\\dtos\\employee\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542CC519-EE69-1CC1-2090-585EFDFA55A1}|ConstructionFinance.API.csproj|solutionrelative:dtos\\employee\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251216174236_CreateSupplierTable.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251216174236_CreateSupplierTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251216174236_CreateSupplierTable.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251216174236_CreateSupplierTable.cs",
+              "RelativeToolTip": "Migrations\\20251216174236_CreateSupplierTable.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:42:36.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAewCYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:37:57.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupplierDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Supplier\\SupplierDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Supplier\\SupplierDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Supplier\\SupplierDto.cs",
+              "RelativeToolTip": "DTOs\\Supplier\\SupplierDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:37:17.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SupplierCreateUpdateDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Supplier\\SupplierCreateUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Supplier\\SupplierCreateUpdateDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Supplier\\SupplierCreateUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\Supplier\\SupplierCreateUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:36:55.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "Models\\Supplier.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Supplier.cs",
+              "RelativeToolTip": "Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:35:47.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:10:55.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAewDIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:21:58.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T17:20:51.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:58:29.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:20:41.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251209184049_FixProjectIdAutoIncrement.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209184049_FixProjectIdAutoIncrement.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251209184049_FixProjectIdAutoIncrement.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209184049_FixProjectIdAutoIncrement.cs",
+              "RelativeToolTip": "Migrations\\20251209184049_FixProjectIdAutoIncrement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:40:59.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Project\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Project\\ProjectDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Project\\ProjectDto.cs",
+              "RelativeToolTip": "DTOs\\Project\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:00:00.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:01:27.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:00:32.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:33:50.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateProjectDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Project\\CreateProjectDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Project\\CreateProjectDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Project\\CreateProjectDto.cs",
+              "RelativeToolTip": "DTOs\\Project\\CreateProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:59:26.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:20:14.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251209181416_CreateProjectsTable.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209181416_CreateProjectsTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251209181416_CreateProjectsTable.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209181416_CreateProjectsTable.cs",
+              "RelativeToolTip": "Migrations\\20251209181416_CreateProjectsTable.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:16:11.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251209172606_addemployee.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209172606_addemployee.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251209172606_addemployee.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209172606_addemployee.cs",
+              "RelativeToolTip": "Migrations\\20251209172606_addemployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:07:15.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251209175339_AddContractAndKycColumnsToEmployee.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209175339_AddContractAndKycColumnsToEmployee.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251209175339_AddContractAndKycColumnsToEmployee.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Migrations\\20251209175339_AddContractAndKycColumnsToEmployee.cs",
+              "RelativeToolTip": "Migrations\\20251209175339_AddContractAndKycColumnsToEmployee.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:53:39.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateProjectDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Project\\UpdateProjectDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Project\\UpdateProjectDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Project\\UpdateProjectDto.cs",
+              "RelativeToolTip": "DTOs\\Project\\UpdateProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:59:47.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateEmployeeDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Employee\\CreateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Employee\\CreateEmployeeDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Employee\\CreateEmployeeDto.cs",
+              "RelativeToolTip": "DTOs\\Employee\\CreateEmployeeDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:19:33.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:18:05.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Employee\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Employee\\EmployeeDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Employee\\EmployeeDto.cs",
+              "RelativeToolTip": "DTOs\\Employee\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:31:11.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateEmployeeDto.cs",
+              "DocumentMoniker": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Employee\\UpdateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Employee\\UpdateEmployeeDto.cs",
+              "ToolTip": "C:\\Asen\\04.Faafture\\18.Console\\construction-finance\\construction-finance\\backend-dotnet\\DTOs\\Employee\\UpdateEmployeeDto.cs",
+              "RelativeToolTip": "DTOs\\Employee\\UpdateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T17:32:03.915Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
