@@ -53,7 +53,7 @@ namespace ConstructionFinance.API.Controllers
         public async Task<ActionResult<SupplierDto>> GetById(int id)
         {
             var supplier = await _db.Suppliers.FindAsync(id);
-            if (supplier == null) return NotFound();
+            if (supplier == null) return NotFound(new { message = $"Supplier with ID {id} not found." });
 
             return Ok(new SupplierDto
             {
@@ -80,8 +80,21 @@ namespace ConstructionFinance.API.Controllers
 
         // POST: api/suppliers
         [HttpPost]
-        public async Task<ActionResult> Create(SupplierCreateUpdateDto dto)
+        public async Task<ActionResult> Create([FromBody] SupplierCreateUpdateDto dto)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            // Basic validations
+            if (string.IsNullOrWhiteSpace(dto.SupplierName))
+                return BadRequest(new { message = "SupplierName is required." });
+
+            if (string.IsNullOrWhiteSpace(dto.MobileNumber))
+                return BadRequest(new { message = "MobileNumber is required." });
+
+            // Prevent duplicate by name + mobile
+            var exists = await _db.Suppliers.AnyAsync(s => s.SupplierName == dto.SupplierName && s.MobileNumber == dto.MobileNumber);
+            if (exists) return Conflict(new { message = "Supplier with same name and mobile number already exists." });
+
             var supplier = new Supplier
             {
                 SupplierName = dto.SupplierName,
@@ -111,10 +124,19 @@ namespace ConstructionFinance.API.Controllers
 
         // PUT: api/suppliers/{id}
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, SupplierCreateUpdateDto dto)
+        public async Task<ActionResult> Update(int id, [FromBody] SupplierCreateUpdateDto dto)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
             var supplier = await _db.Suppliers.FindAsync(id);
-            if (supplier == null) return NotFound();
+            if (supplier == null) return NotFound(new { message = $"Supplier with ID {id} not found." });
+
+            // Basic validations
+            if (string.IsNullOrWhiteSpace(dto.SupplierName))
+                return BadRequest(new { message = "SupplierName is required." });
+
+            if (string.IsNullOrWhiteSpace(dto.MobileNumber))
+                return BadRequest(new { message = "MobileNumber is required." });
 
             supplier.SupplierName = dto.SupplierName;
             supplier.ContactPerson = dto.ContactPerson;
@@ -143,8 +165,10 @@ namespace ConstructionFinance.API.Controllers
         public async Task<ActionResult> Delete(int id)
         {
             var supplier = await _db.Suppliers.FindAsync(id);
-            if (supplier == null) return NotFound();
+            if (supplier == null) return NotFound(new { message = $"Supplier with ID {id} not found." });
 
+            // If there were entities referencing suppliers, we'd prevent deletion.
+            // For now remove directly.
             _db.Suppliers.Remove(supplier);
             await _db.SaveChangesAsync();
             return NoContent();

@@ -32,10 +32,29 @@ namespace ConstructionFinance.API.Controllers
 
         [HttpPost]
         public async Task<ActionResult<CustomerDto>> Create([FromBody]  CreateCustomerDto dto)
-        {   
+        {
+            // Normalize input
+            var firstName = dto.FirstName.Trim().ToLower();
+            var lastName = dto.LastName.Trim().ToLower();
+
+            // Check existing
+            var exists = await _db.Customers
+                .AnyAsync(c => c.FirstName.ToLower() == firstName &&
+                               c.LastName.ToLower() == lastName);
+
+            if (exists)
+            {
+                return Conflict(new
+                {
+                    message = $"Customer '{dto.FirstName} {dto.LastName}' already exists."
+                });
+            }
+
             var customer = _mapper.Map<Customer>(dto);
+
             _db.Customers.Add(customer);
             await _db.SaveChangesAsync();
+
             return Ok(customer);
         }
 
@@ -64,6 +83,13 @@ namespace ConstructionFinance.API.Controllers
 
             if (customer == null)
                 return NotFound($"Customer with ID {id} not found.");
+
+            // Prevent deletion when projects reference this customer
+            var hasProjects = await _db.Projects.AnyAsync(p => p.CustomerId == id);
+            if (hasProjects)
+            {
+                return Conflict(new { message = "Cannot delete customer because one or more projects are mapped to this customer." });
+            }
 
             _db.Customers.Remove(customer);
             await _db.SaveChangesAsync();

@@ -1,4 +1,6 @@
-﻿namespace ConstructionFinance.API.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ConstructionFinance.API.Models
 {
     public class Employee
     {
@@ -6,7 +8,15 @@
 
         // Basic Info
         public string Type { get; set; }            // Employee / Contractor
-        public string FullName { get; set; }
+
+        [Required]
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
+
+        // Backwards-compatible FullName computed from first+last
+        public string FullName => $"{FirstName} {LastName}".Trim();
+
         public string MobileNumber { get; set; }
         public string? Email { get; set; }
         public string? Address { get; set; }
@@ -36,6 +46,10 @@
 
         public DateTime? ContractStartDate { get; set; } // Optional
         public DateTime? ContractEndDate { get; set; }   // Optional
+
+        // Role FK
+        public int? RoleId { get; set; }
+        public Role? Role { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }

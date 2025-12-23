@@ -4,7 +4,8 @@ namespace ConstructionFinance.API.DTOs
 {
     public class CreateCustomerDto
     {
-        [Required] public string Name { get; set; } = null!;
+        [Required]  public string FirstName { get; set; }
+        [Required]  public string LastName { get; set; }
         public string? ContactPerson { get; set; }
         public string? Phone { get; set; }
         public string? Email { get; set; }
